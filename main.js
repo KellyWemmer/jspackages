@@ -105,7 +105,3 @@ function filterFragile() {
     currentPackages = currentPackages.filter(package => package.fragile == missing.fragile)
     drawPackages()
 }
-
-// function filterMissing() {
-//     let missing = packages.find(package => package.missing == true)
-// }
