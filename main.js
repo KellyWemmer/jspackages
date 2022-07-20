@@ -105,3 +105,8 @@ function filterFragile() {
     currentPackages = currentPackages.filter(package => package.fragile == missing.fragile)
     drawPackages()
 }
+
+function resetPackages() {
+    currentPackages = packages
+    drawPackages()
+}
